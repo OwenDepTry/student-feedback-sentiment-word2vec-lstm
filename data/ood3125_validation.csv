@@ -1,0 +1,313 @@
+row_id,sentence,label
+ood:00004,"Sau vài lần tìm lỗi code bằng ChatGPT, mình nhận ra hệ thống gán sai cấu trúc JSON.",0
+ood:00036,Tôi từng mất thời gian sửa kết quả khi Gemini khẳng định sai về một thuật ngữ chuyên ngành trong lúc hỏi kiến thức mới.,0
+ood:00047,Mình khá ngán việc dùng ChatGPT cho triển khai thí nghiệm khi công cụ diễn giải lệch phương pháp nghiên cứu.,0
+ood:00052,"Khi lên ý tưởng, mình không đánh giá cao kết quả vì Copilot thiếu nét riêng khi tạo kịch bản video ngắn.",0
+ood:00054,Một lần làm việc với dữ liệu nhạy cảm với ChatGPT đã khiến mình khó tin ngay câu trả lời do hệ thống không làm người dùng yên tâm về cách xử lý mã nguồn riêng.,0
+ood:00055,Em khá ngán việc dùng Claude cho kiểm tra thông tin bí mật khi công cụ xử lý quá hời hợt với secret key.,0
+ood:00056,"Khi soát nội dung nhạy cảm, tôi thất vọng vì Copilot đôi lúc gợi ý giữ nguyên token truy cập.",0
+ood:00069,"Trong thời gian phân loại khiếu nại, Copilot trả lời quá máy móc với yêu cầu hoàn tiền, khiến tôi phải kiểm tra lại câu trả lời.",0
+ood:00073,Kết quả từ Claude làm mình không yên tâm trong lúc đưa nhận xét cá nhân bởi hệ thống phản hồi thiếu cân bằng với khả năng học tập.,0
+ood:00081,Tôi chỉ coi đầu ra của Copilot như tham khảo khi tìm tài liệu đối chiếu do hệ thống tự tạo ra một bài báo không tồn tại.,0
+ood:00100,Em buộc phải mở nguồn khác để rà khi chăm sóc khách hàng vì Gemini dùng giọng điệu không phù hợp cho khiếu nại giao hàng.,0
+ood:00115,"Ngay trong chỉnh bản dịch, Gemini đã dịch cụm từ học thuật quá sát chữ, làm em thấy khá bực.",0
+ood:00127,Hễ mình dùng Claude cho phân loại khiếu nại mà hệ thống hiểu sai câu hỏi bảo hành thì công việc lại mất thêm thời gian.,0
+ood:00150,Mình thấy Claude hỗ trợ đọc mã nguồn vẫn thiếu ổn định bởi không cảnh báo khi prompt có script tải từ nguồn không rõ.,0
+ood:00173,Em từng dùng Claude cho xem tài liệu không công khai nhưng AI vẫn không làm người dùng yên tâm về cách xử lý danh sách khách hàng.,0
+ood:00180,Claude khiến tôi trở nên dè dặt hơn với phân tích bài nghiên cứu vì công cụ ghi sai biến phụ thuộc.,0
+ood:00192,Một lần chỉnh văn bản với Gemini đã khiến em thất vọng do công cụ rút gọn quá mức câu kết văn bản.,0
+ood:00194,"Ở tác vụ viết tiếng Việt, phần yếu nhất của Gemini là việc công cụ hiểu chưa tốt câu pha Việt Anh.",0
+ood:00204,Tưởng Copilot có thể xử lý ổn tóm tắt nội dung nhưng hệ thống lại làm mình lo vô tình sao chép bài quảng cáo phổ biến.,0
+ood:00206,Việc Copilot tạo nội dung quá giống nội dung website khác khiến tôi thận trọng hơn mỗi khi viết nội dung.,0
+ood:00215,Mình từng mất thời gian sửa kết quả khi AI tự thêm biến độc lập trong lúc triển khai thí nghiệm.,0
+ood:00233,Vấn đề lớn nhất mình gặp ở ChatGPT trong hoàn thiện tài liệu là hệ thống làm mất câu kết văn bản.,0
+ood:00261,"AI phản hồi thiếu cân bằng với năng lực dựa trên cách viết trong lúc mình đang đánh giá con người, làm mình thận trọng hơn.",0
+ood:00275,"Không ít lần AI làm mình lo về việc đồng bộ thông tin định danh trong lúc tôi đọc hồ sơ riêng, làm câu trả lời mất điểm nghiêm trọng.",0
+ood:00289,Việc ChatGPT sắp xếp lộn xộn ý chính của biên bản họp khiến tôi thận trọng hơn mỗi khi chuẩn bị văn bản.,0
+ood:00297,Điều làm tôi thấy phiền ở Gemini là việc công cụ dễ lặp lại câu chữ từ bài đăng mạng xã hội khi chỉnh sửa bài viết.,0
+ood:00298,"Trong thời gian chỉnh portfolio, Claude tự thêm vai trò trong dự án, khiến tôi khiến kết quả phải được rà lại.",0
+ood:00308,"AI xử lý quá hời hợt với cookie phiên đăng nhập trong lúc mình đang phân tích mã chương trình, làm độ tin cậy giảm rõ.",0
+ood:00320,Mặt yếu dễ nhận ra của Claude ở kiểm tra bug là việc hệ thống nhầm chỉ số mảng.,0
+ood:00322,Copilot làm việc làm việc với hồ sơ cá nhân của tôi kém hiệu quả sau một số lần hệ thống khiến mình dè chừng khi nhập số điện thoại.,0
+ood:00340,"Ngay trong rà lỗi logic, AI đã nhầm kiểu dữ liệu đầu vào, làm mình thấy khá bực.",0
+ood:00352,Tôi thấy ChatGPT hỗ trợ đánh giá thị trường vẫn thiếu ổn định bởi suy diễn quá mức từ dữ liệu đơn hàng.,0
+ood:00354,Mình thấy trải nghiệm với Claude xuống hẳn mỗi khi công cụ nhận nhầm cột trong bảng lúc làm hình minh họa.,0
+ood:00366,Copilot làm trải nghiệm xem tài liệu chỉ dùng nội bộ của em khó dùng hơn khi công cụ không nói rõ thời gian lưu thông tin định danh.,0
+ood:00371,Tôi chỉ dùng kết quả của Claude như tham khảo khi debug chương trình bởi hệ thống tự đổi giá trị trả về.,0
+ood:00383,"Trong phân tích hồ sơ, tôi gặp câu trả lời đáng ngờ từ AI bởi cách công cụ dễ suy đoán định kiến từ nghề nghiệp của một người.",0
+ood:00385,Điều làm tôi thấy thiếu tin cậy ở Claude là việc công cụ làm trải nghiệm tệ đi vì tệp không được đọc hết khi xử lý tệp.,0
+ood:00397,ChatGPT khiến em phải soi kỹ kết quả ở hỏi kiến thức mới vì công cụ gán sai nguồn cho một nghiên cứu y khoa.,0
+ood:00408,Dùng Gemini để luyện phỏng vấn trở nên rườm rà vì công cụ phóng đại vai trò trong dự án.,0
+ood:00411,"Sau vài lần chỉnh văn bản bằng Copilot, em nhận ra hệ thống đổi sai tên người nhận.",0
+ood:00414,"Thay vì giảm công sức thì, AI không nói rõ thời gian lưu mã nguồn riêng lúc đọc hồ sơ riêng, làm mình phải sửa lại.",0
+ood:00431,Việc AI giải thích sai đường dẫn tệp khiến tôi phải dè dặt hơn khi code dự án.,0
+ood:00433,"Không ít lần Gemini bỏ sót kết quả chính trong lúc tôi triển khai thí nghiệm, khiến trải nghiệm kém đáng tin.",0
+ood:00435,Việc Gemini đôi lúc gợi ý giữ nguyên đường link lạ khiến em ngại lặp lại việc đọc mã nguồn.,0
+ood:00437,"Ở tác vụ làm đề tài khoa học, hạn chế dễ thấy ở ChatGPT là việc công cụ ghi sai kết quả chính.",0
+ood:00443,Tôi thất vọng về cách Gemini hỗ trợ viết CV bởi công cụ phóng đại kỹ năng cá nhân.,0
+ood:00444,Em không thể tin ngay kết quả của Claude ở chỉnh bản dịch khi hệ thống không giữ nhất quán thuật ngữ kỹ thuật.,0
+ood:00448,Em chỉ dùng nội dung của Gemini như tham khảo khi chỉnh portfolio vì đầu ra viết quá chung chung về kỹ năng cá nhân.,0
+ood:00453,"Ở dịch tài liệu, việc Gemini không giữ nhất quán từ viết tắt khiến câu trả lời không thể dùng thẳng.",0
+ood:00455,"Riêng ở phần kiểm tra thông tin cần giữ kín, tôi thấy Copilot thiếu thuyết phục bởi cách công cụ không giải thích đủ quyền truy cập vào hợp đồng chưa công bố.",0
+ood:00460,AI khiến tôi cẩn trọng hơn trong tính các chỉ số vì công cụ diễn giải ngược tỷ lệ phần trăm.,0
+ood:00493,"Đang phân loại khiếu nại, mình gặp đúng trường hợp ChatGPT trả lời quá máy móc với câu hỏi bảo hành nên thật sự khó chịu.",0
+ood:00494,"Trong thời gian lập trình một tính năng, AI không kiểm tra ngoại lệ có thể xảy ra, khiến tôi làm tôi phải đọc lại đầu ra.",0
+ood:00496,Tưởng Copilot có thể xử lý ổn làm bài trên lớp vậy mà hệ thống lại đơn giản hóa quá mức bước trung gian của lời giải.,0
+ood:00497,"Ở tác vụ tổng hợp phản hồi, nhược điểm nổi bật của Claude là việc công cụ bỏ sót dữ liệu đơn hàng.",0
+ood:00509,"Đáng lẽ làm việc nhẹ hơn nhưng, Claude khiến mình cân nhắc bỏ dùng vì giới hạn lượt dùng quá nhanh lúc xử lý nhiều tệp, làm tôi phải sửa lại.",0
+ood:00539,Em từng dùng Claude cho chuẩn bị bài nghiên cứu vậy mà hệ thống lại bỏ sót tên bộ dữ liệu.,0
+ood:00582,Điều làm em không yên tâm ở Claude là việc công cụ gây trở ngại rõ rệt vì giới hạn lượt dùng quá nhanh khi dùng tính năng nâng cao.,0
+ood:00592,"Ở phân tích hồ sơ, việc Claude đưa nhận xét thiếu công bằng về mức thu nhập từ vài dữ kiện khiến câu trả lời phải được kiểm tra lại.",0
+ood:00602,Vấn đề lớn nhất em gặp ở Claude trong đọc log an toàn thông tin là hệ thống không nhắc mình che địa chỉ máy chủ nội bộ.,0
+ood:00604,Tôi từng dùng AI cho tự động hóa công việc thế mà công cụ vẫn lặp tác vụ khi gặp tệp trùng tên.,0
+ood:00608,"Đáng ra phải giúp gọn hơn nhưng, AI bỏ sót phương pháp nghiên cứu lúc xem một paper chuyên ngành, làm em phải sửa lại.",0
+ood:00630,Em đánh giá thấp độ chính xác của Gemini ở chuẩn bị chiến dịch khi công cụ đưa ý tưởng quá giống tiêu đề quảng cáo.,0
+ood:00651,Tôi thấy ChatGPT hỗ trợ tìm thông tin hiện tại chưa thuyết phục vì khẳng định sai về một tính năng phần mềm.,0
+ood:00662,Khả năng đánh giá con người của AI chưa thuyết phục do hệ thống phản hồi thiếu cân bằng với nhóm người theo độ tuổi.,0
+ood:00665,"Sau vài lần phân tích kinh doanh bằng ChatGPT, em nhận ra hệ thống kết luận vội từ hiệu quả chiến dịch.",0
+ood:00668,Việc Copilot ghép nhầm thông tin của một sự kiện lịch sử khiến mình thận trọng hơn mỗi khi đối chiếu thông tin.,0
+ood:00692,Copilot làm việc đọc văn bản có thông tin riêng của mình kém hiệu quả sau những lần AI không cho mình cảm giác kiểm soát đối với ghi chú họp nội bộ.,0
+ood:00698,"Không ít lần AI ghép nhầm thông tin của một API trong lúc tôi hỏi kiến thức thực tế, khiến trải nghiệm kém đáng tin.",0
+ood:00699,Khả năng đọc dữ liệu của nhóm của Gemini chưa thuyết phục do hệ thống khiến mình dè chừng khi nhập địa chỉ nhà.,0
+ood:00701,Hạn chế dễ thấy nhất ở ChatGPT ở làm thống kê là việc hệ thống làm tròn sai đơn vị đo.,0
+ood:00703,Mình khá ngán việc dùng Claude cho kiểm tra mã có thông tin nhạy cảm khi công cụ không làm rõ rủi ro của cookie phiên đăng nhập.,0
+ood:00704,Mình phải tự sửa phần AI tạo của Gemini khi phân tích hồ sơ do công cụ đưa nhận xét thiếu công bằng về một lựa chọn cá nhân.,0
+ood:00707,Việc Copilot không cho mình cảm giác kiểm soát đối với mã sinh viên khiến tôi ngại lặp lại việc làm việc với hồ sơ cá nhân.,0
+ood:00720,Tôi thất vọng về cách AI hỗ trợ tìm lỗi code do hệ thống gán sai thứ tự thực thi.,0
+ood:00725,AI làm trải nghiệm phân loại khiếu nại của em kém hẳn lúc hệ thống dùng giọng điệu không phù hợp cho yêu cầu hoàn tiền.,0
+ood:00733,"Trong thời gian chăm sóc khách hàng, AI bỏ qua yêu cầu hoàn tiền, khiến mình buộc phải rà lại đầu ra.",0
+ood:00750,Khả năng đưa nhận xét cá nhân của AI vẫn nhiều hạn chế khi hệ thống gán đặc điểm không có căn cứ cho mức thu nhập từ vài dữ kiện.,0
+ood:00767,Copilot làm em bị mất thời gian xác nhận lại trong khảo sát dữ liệu vì công cụ đọc nhầm tổng số mẫu.,0
+ood:00768,"Ở tác vụ tính metric, hạn chế dễ thấy ở Gemini là việc công cụ chuẩn hóa sai đơn vị đo.",0
+ood:00786,Em thấy bất tiện với cách Claude hỗ trợ phân tích kinh doanh bởi cách công cụ suy diễn quá mức từ tỷ lệ chuyển đổi.,0
+ood:00794,Một nhược điểm khó chịu của ChatGPT trong viết nội dung là hệ thống không chỉ ra ranh giới với tài liệu có bản quyền.,0
+ood:00806,Claude làm việc triển khai thí nghiệm của mình kém hiệu quả sau một số lần hệ thống bỏ sót tên hội nghị.,0
+ood:00822,"Khó chịu nhất là lúc xử lý chỉ số, AI chuẩn hóa sai precision mà vẫn trả lời rất chắc chắn.",0
+ood:00835,Một nhược điểm khó chịu của AI trong viết CV là hệ thống viết quá chung chung về vai trò trong dự án.,0
+ood:00854,"Trong tạo workflow, tôi nhận kết quả thiếu tin cậy từ Copilot bởi công cụ lặp tác vụ khi gặp dòng dữ liệu rỗng.",0
+ood:00864,"Tưởng sẽ xử lý nhanh nhưng, Copilot không cảnh báo khi prompt có thông tin VPN lúc xem sự kiện bảo mật, làm em phải sửa lại.",0
+ood:00882,"Sau vài lần lên ý tưởng bằng Gemini, mình nhận ra hệ thống viết quá khuôn mẫu cho ý tưởng poster.",0
+ood:00884,Copilot làm trải nghiệm sáng tạo nội dung của em bất tiện hẳn lúc hệ thống đưa ý tưởng quá giống bài viết trước.,0
+ood:00904,Tôi từng kỳ vọng tiết kiệm thời gian nhưng AI tự thêm kết luận của tác giả khi phân tích bài nghiên cứu.,0
+ood:00907,"Không ít lần Copilot không chỉ ra ranh giới với bài đăng mạng xã hội trong lúc em chỉnh sửa bài viết, khiến trải nghiệm kém đáng tin.",0
+ood:00910,Khả năng hỏi về thay đổi gần đây của Claude vẫn nhiều hạn chế khi hệ thống khẳng định sai về một nghiên cứu y khoa.,0
+ood:00925,Đầu ra của Gemini ở tìm hiểu kiến thức mới trở nên khó tin mỗi khi hệ thống nhầm trường hợp ngoại lệ.,0
+ood:00949,Em không đánh giá cao cách ChatGPT hỗ trợ xử lý thông tin cá nhân bởi hệ thống làm mình lo về việc đồng bộ ghi chú họp nội bộ.,0
+ood:00953,AI làm em tốn thêm công rà soát trong so sánh các trường hợp vì công cụ phản hồi thiếu cân bằng với người dùng dựa trên tên.,0
+ood:00960,Chỉ riêng việc AI suy diễn quá mức từ nhận xét sản phẩm đã khiến việc phân tích kinh doanh trở nên mất công hơn đối với mình.,0
+ood:00961,"Ở phân loại khiếu nại, việc AI tự suy đoán về yêu cầu đổi sản phẩm khiến kết quả cần rà lại trước.",0
+ood:00986,Hễ mình dùng AI cho đánh giá con người mà hệ thống dễ suy đoán định kiến từ phong cách làm việc thì công việc lại mất thêm thời gian.,0
+ood:00987,"Khó chịu nhất là lúc rà code, Gemini xử lý quá hời hợt với tệp cấu hình nhạy cảm mà vẫn trả lời rất chắc chắn.",0
+ood:00993,Vấn đề lớn nhất em gặp ở ChatGPT trong xem bài báo chuyên môn là hệ thống nhầm biến phụ thuộc.,0
+ood:01001,"Tôi dùng Copilot để gợi ý code khi lập trình, thỉnh thoảng nó đoán đúng ý, thỉnh thoảng thì không.",1
+ood:01008,"Tôi hay hỏi ChatGPT về cú pháp lập trình khi quên, xong rồi tự kiểm tra lại.",1
+ood:01010,"AI giúp tóm tắt tài liệu kỹ thuật dài, tiết kiệm thời gian đọc nhưng đôi khi bỏ sót chi tiết quan trọng.",1
+ood:01018,Gemini hỗ trợ tôi dịch tài liệu kỹ thuật tiếng Anh sang tiếng Việt.,1
+ood:01022,"AI đề xuất giải pháp kỹ thuật, tôi vẫn phải đánh giá lại tính khả thi.",1
+ood:01024,"Trong nhóm kỹ thuật, có người dùng AI thường xuyên, có người ít dùng.",1
+ood:01030,"Thử dùng AI để viết script tự động hoá, kết quả còn phải tinh chỉnh thêm.",1
+ood:01052,"Tôi dùng thử vài công cụ AI khác nhau cho công việc kỹ thuật, mỗi cái một kiểu.",1
+ood:01054,Chưa biết AI có nên áp dụng rộng rãi trong quy trình kỹ thuật của công ty không.,1
+ood:01062,AI hỗ trợ phân tích số liệu kinh doanh nhưng vẫn cần đối chiếu lại với báo cáo thực tế.,1
+ood:01064,Công ty tôi đang thử dùng AI để viết nội dung marketing.,1
+ood:01078,Cty t mới bắt đầu thử nghiệm chatbot AI cho tư vấn khách hàng.,1
+ood:01080,Việc AI có thể thay thế nhân viên chăm sóc khách hàng hay không vẫn là câu hỏi mở.,1
+ood:01087,"AI hỗ trợ tổng hợp phản hồi khách hàng, số lượng xử lý được nhiều hơn trước.",1
+ood:01091,Tôi dùng ChatGPT để giải thích lại bài giảng khó hiểu trên lớp.,1
+ood:01109,"Tôi thử một vài app học tập có tích hợp AI, kết quả tuỳ app cụ thể.",1
+ood:01122,Không rõ trong 5 năm tới AI sẽ thay đổi cách học của sinh viên như thế nào.,1
+ood:01123,Sinh viên khoá tôi mỗi người dùng AI theo cách khác nhau.,1
+ood:01128,Việc thử nghiệm AI cho môn tự chọn của trường vẫn đang tiếp diễn.,1
+ood:01134,Chưa biết AI có nên áp dụng rộng rãi trong chương trình học của trường không.,1
+ood:01138,Ko chắc AI hiểu đúng yêu cầu đề bài hay chỉ đoán theo từ khoá quen thuộc.,1
+ood:01139,Nhờ AI mà việc tìm tài liệu tham khảo cho bài luận cũng đỡ mất thời gian hơn.,1
+ood:01156,"Dùng AI để tìm hiểu về luật cũng tạm được, chưa thay thế được tư vấn chuyên môn.",1
+ood:01158,"AI hỗ trợ soạn thực đơn ăn uống, gợi ý đa dạng nhưng cần điều chỉnh theo sở thích cá nhân.",1
+ood:01169,"AI này dùng cho việc tra cứu sức khoẻ ở mức tạm ổn, chưa có ảnh hưởng rõ rệt.",1
+ood:01179,"Mức độ hữu dụng của AI trong công việc hằng ngày của tôi chỉ ở mức tạm, chưa có gì nổi bật.",1
+ood:01197,AI giúp sinh gợi ý phong cách trang điểm nhanh nhưng đôi khi cần chỉnh sửa lại theo ý khách.,1
+ood:01201,Tôi thường mở ChatGPT để tra cứu nhanh các thuật ngữ tiếng Anh khi đọc tài liệu chuyên ngành.,1
+ood:01203,Không biết việc ứng dụng AI vào giảng dạy đại học sẽ làm thay đổi vai trò của giảng viên như thế nào.,1
+ood:01211,Sinh viên có được phép sử dụng ChatGPT để hỗ trợ viết phần tổng quan tài liệu trong luận văn hay không?,1
+ood:01215,Không rõ các mô hình ngôn ngữ lớn xử lý tiếng Việt dựa trên dữ liệu thu thập từ những nguồn nào.,1
+ood:01232,"Tính năng tóm tắt văn bản của ứng dụng hoạt động tương đối ổn định, đáp ứng được yêu cầu nắm ý chính bài viết.",1
+ood:01237,Tôi thường nhờ ChatGPT gợi ý danh mục tài liệu tham khảo cho bài tiểu luận môn kinh tế.,1
+ood:01254,"Claude viết văn bản trang trọng rất chỉn chu, dù vậy khả năng tính toán số học đơn giản vẫn có lúc sai lệch.",1
+ood:01289,Tụi mình dùng AI để tạo danh sách các câu hỏi ôn tập trước kỳ thi giữa kỳ.,1
+ood:01297,"Khi học lập trình web, em mở Copilot song song để xem gợi ý cú pháp HTML và CSS.",1
+ood:01326,"AI hỗ trợ viết tài liệu mô tả sản phẩm khá nhanh, tuy nhiên các tính năng kỹ thuật chuyên sâu vẫn cần kỹ sư chỉnh lại.",1
+ood:01337,Sinh viên trường mình hay dùng ChatGPT để gợi ý các chủ đề làm video thuyết trình nhóm.,1
+ood:01343,Liệu việc lạm dụng AI để viết email giao tiếp có làm giảm đi tính chân thành trong quan hệ đồng nghiệp không?,1
+ood:01367,Liệu việc phân tích tâm lý người dùng qua các câu lệnh prompt có bị coi là xâm phạm quyền riêng tư không?,1
+ood:01374,"ChatGPT viết thư xin việc đúng cấu trúc tiêu chuẩn, dù vậy dấu ấn cá nhân và kinh nghiệm thực tế cần tự bổ sung.",1
+ood:01377,Tôi dùng Gemini để tra cứu các mã lỗi HTTP khi kiểm tra kết nối API giữa các dịch vụ.,1
+ood:01379,Liệu AI có thể hỗ trợ tối ưu hóa mạng lưới đèn tín hiệu giao thông tại các đô thị lớn được hay không?,1
+ood:01388,"Tôi đánh giá tính năng tự động ghi chú cuộc họp ở mức vừa phải, ghi nhận được các mốc thời gian chính.",1
+ood:01399,Không biết các công cụ kiểm tra ngữ pháp tiếng Anh bằng AI có nhận diện tốt các lỗi ngữ dụng học không.,1
+ood:01417,Nhóm quản trị hệ thống dùng ChatGPT để viết các đoạn mã shell script tự động sao lưu dữ liệu.,1
+ood:01422,"ChatGPT hỗ trợ tìm kiếm ý tưởng khá nhanh, nhưng khi gặp các bài toán có nhiều giả định biến thiên thì bắt đầu nhầm lẫn.",1
+ood:01448,"Tôi thấy khả năng dịch thuật tài liệu của Gemini ở mức bình thường, chưa thấy có sự khác biệt quá lớn so với trước.",1
+ood:01470,"ChatGPT hỗ trợ tìm kiếm ý tưởng khá nhanh, tuy nhiên khi gặp các bài toán có nhiều giả định biến thiên thì bắt đầu nhầm lẫn.",1
+ood:01496,Tôi thấy văn phong câu chữ do Claude tạo ra đáp ứng tương đối ổn định với các tác vụ văn phòng thông thường.,1
+ood:01518,"ChatGPT hỗ trợ tìm kiếm ý tưởng khá nhanh, song khi gặp các bài toán có nhiều giả định biến thiên thì bắt đầu nhầm lẫn.",1
+ood:01536,Tôi thấy tính năng gợi ý mã nguồn của Copilot đáp ứng tương đối ổn định với các tác vụ văn phòng thông thường.,1
+ood:01552,"Tôi thấy tính năng gợi ý mã nguồn của Copilot ở mức vừa tầm, đủ để người dùng nắm bắt được các ý chính của vấn đề.",1
+ood:01557,Tôi thường dùng ChatGPT để kiểm tra lại cách dùng từ ngữ trong văn bản trước khi nộp bài thu hoạch cho giảng viên.,1
+ood:01560,"Tôi thấy tính năng gợi ý mã nguồn của Copilot ở mức vừa đủ, chưa đạt đến mức xuất sắc nhưng chấp nhận được.",1
+ood:01563,Mọi người có nghĩ việc dùng AI hỗ trợ viết email sẽ làm giảm tính chân thành trong giao tiếp về lâu dài hay chỉ là xu hướng nhất thời không?,1
+ood:01566,"ChatGPT hỗ trợ tìm kiếm ý tưởng khá nhanh, đổi lại khi gặp các bài toán có nhiều giả định biến thiên thì bắt đầu nhầm lẫn.",1
+ood:01569,Tôi thường dùng ChatGPT để phân loại phản hồi của người tham gia sự kiện theo từng nhóm chủ đề quan tâm.,1
+ood:01600,"Tôi thấy hiệu quả hỗ trợ của công cụ AI này ở mức vừa đủ, chưa đạt đến mức xuất sắc nhưng chấp nhận được.",1
+ood:01604,"Tôi thấy tốc độ xử lý của mô hình ngôn ngữ hiện tại ở mức vừa phải, đáp ứng được các nhu cầu tìm kiếm thông tin cơ bản.",1
+ood:01607,Không biết các mô hình ngôn ngữ lớn xử lý tiếng Việt có bắt kịp độ chuẩn xác của tiếng Anh trong bối cảnh công nghệ đang phát triển nhanh chóng không?,1
+ood:01614,"ChatGPT hỗ trợ tìm kiếm ý tưởng khá nhanh, dù vậy khi gặp các bài toán có nhiều giả định biến thiên thì bắt đầu nhầm lẫn.",1
+ood:01617,Tôi thường dùng Claude để kiểm tra lại cách dùng từ ngữ trong văn bản trước khi nộp bài thu hoạch cho giảng viên.,1
+ood:01629,Tôi thường dùng Claude để phân loại phản hồi của người tham gia sự kiện theo từng nhóm chủ đề quan tâm.,1
+ood:01644,"Tôi thấy tính năng tự động trích xuất bảng biểu ở mức vừa phải, đáp ứng được các nhu cầu tìm kiếm thông tin cơ bản.",1
+ood:01654,"Claude tóm tắt văn bản dài tương đối mạch lạc, nhưng lập trình viên vẫn phải tự rà soát và sửa lại logic thuật toán.",1
+ood:01677,Tôi thường dùng Gemini để kiểm tra lại cách dùng từ ngữ trong văn bản trước khi nộp bài thu hoạch cho giảng viên.,1
+ood:01689,Tôi thường dùng Gemini để phân loại phản hồi của người tham gia sự kiện theo từng nhóm chủ đề quan tâm.,1
+ood:01702,"Claude tóm tắt văn bản dài tương đối mạch lạc, tuy nhiên lập trình viên vẫn phải tự rà soát và sửa lại logic thuật toán.",1
+ood:01737,Tôi thường dùng Copilot để kiểm tra lại cách dùng từ ngữ trong văn bản trước khi nộp bài thu hoạch cho giảng viên.,1
+ood:01749,Tôi thường dùng Copilot để phân loại phản hồi của người tham gia sự kiện theo từng nhóm chủ đề quan tâm.,1
+ood:01750,"Claude tóm tắt văn bản dài tương đối mạch lạc, song lập trình viên vẫn phải tự rà soát và sửa lại logic thuật toán.",1
+ood:01797,Tôi thường dùng Perplexity để kiểm tra lại cách dùng từ ngữ trong văn bản trước khi nộp bài thu hoạch cho giảng viên.,1
+ood:01798,"Claude tóm tắt văn bản dài tương đối mạch lạc, đổi lại lập trình viên vẫn phải tự rà soát và sửa lại logic thuật toán.",1
+ood:01807,Không biết học sinh trung học phổ thông có nên phụ thuộc vào AI khi làm bài tập về nhà trong bối cảnh công nghệ đang phát triển nhanh chóng không?,1
+ood:01809,Tôi thường dùng Perplexity để phân loại phản hồi của người tham gia sự kiện theo từng nhóm chủ đề quan tâm.,1
+ood:01836,Tôi thấy tính năng hỗ trợ kiểm tra chính tả của AI ở mức dùng tạm cho các tình huống trao đổi thông thường.,1
+ood:01846,"Claude tóm tắt văn bản dài tương đối mạch lạc, dù vậy lập trình viên vẫn phải tự rà soát và sửa lại logic thuật toán.",1
+ood:01857,Tôi thường sử dụng ChatGPT để kiểm tra lại cách dùng từ ngữ trong văn bản trước khi nộp bài thu hoạch cho giảng viên.,1
+ood:01863,Liệu việc tự động hóa khâu viết báo cáo bằng AI có làm giảm khả năng tư duy logic của nhân viên khi xử lý các tài liệu có tính chất bảo mật nội bộ không?,1
+ood:01868,"Tôi thấy khả năng tổng hợp thông tin từ văn bản dài ở mức tròn trịa, không có nhiều điểm sai sót nhưng cũng không quá nổi bật.",1
+ood:01869,Tôi thường sử dụng ChatGPT để phân loại phản hồi của người tham gia sự kiện theo từng nhóm chủ đề quan tâm.,1
+ood:01880,"Tôi thấy khả năng tổng hợp thông tin từ văn bản dài ở mức vừa đủ, chưa đạt đến mức xuất sắc nhưng chấp nhận được.",1
+ood:01908,Tôi thường sử dụng Claude để kiểm tra lại cách dùng từ ngữ trong văn bản trước khi nộp bài thu hoạch cho giảng viên.,1
+ood:01916,"Em đánh giá khả năng dịch thuật tài liệu của Gemini ở mức bình thường, chưa thấy có sự khác biệt quá lớn so với trước.",1
+ood:01917,Tôi thường sử dụng Claude để phân loại phản hồi của người tham gia sự kiện theo từng nhóm chủ đề quan tâm.,1
+ood:01933,Em đánh giá văn phong câu chữ do Claude tạo ra đáp ứng tương đối ổn định với các tác vụ văn phòng thông thường.,1
+ood:01955,Em đánh giá tính năng gợi ý mã nguồn của Copilot đáp ứng tương đối ổn định với các tác vụ văn phòng thông thường.,1
+ood:01965,"Em đánh giá tính năng gợi ý mã nguồn của Copilot ở mức vừa tầm, đủ để người dùng nắm bắt được các ý chính của vấn đề.",1
+ood:01968,Tôi thường sử dụng Copilot để kiểm tra lại cách dùng từ ngữ trong văn bản trước khi nộp bài thu hoạch cho giảng viên.,1
+ood:01969,"Em đánh giá tính năng gợi ý mã nguồn của Copilot ở mức vừa đủ, chưa đạt đến mức xuất sắc nhưng chấp nhận được.",1
+ood:01974,Tôi thường sử dụng Copilot để phân loại phản hồi của người tham gia sự kiện theo từng nhóm chủ đề quan tâm.,1
+ood:01988,"Em đánh giá hiệu quả hỗ trợ của công cụ AI này ở mức vừa đủ, chưa đạt đến mức xuất sắc nhưng chấp nhận được.",1
+ood:01990,"Em đánh giá tốc độ xử lý của mô hình ngôn ngữ hiện tại ở mức vừa phải, đáp ứng được các nhu cầu tìm kiếm thông tin cơ bản.",1
+ood:02006,"Bộ phận chăm sóc khách hàng bên mình hàng ngày đều xuất dữ liệu các đoạn hội thoại trao đổi với người dùng sang tệp văn bản thô, sau đó nạp vào mô hình AI nội bộ để trích xuất danh mục các câu hỏi thường gặp nhất và phân loại phản hồi theo từng nhóm tính năng sản phẩm để gửi báo cáo tuần cho ban giám đốc.",1
+ood:02039,"Mô hình Gemini có ưu thế vượt trội về tốc độ cập nhật các tin tức sự kiện mới và hỗ trợ tìm kiếm tài liệu kèm theo đường dẫn nguồn trực tiếp, nhưng khi đi sâu vào phân tích các bài toán định lượng hoặc giải thích cơ chế hoạt động của các thuật toán phức tạp thì câu trả lời đưa ra lại có phần sơ sài và thỉnh thoảng dẫn liên kết bị lỗi không truy cập được.",1
+ood:02049,"Việc đưa AI vào hỗ trợ phân loại hồ sơ ứng viên giúp phòng nhân sự sàng lọc hàng trăm bộ hồ sơ xin việc chỉ trong vài phút, đổi lại thuật toán sàng lọc tự động đôi khi đánh giá quá cứng nhắc dựa trên từ khóa xuất hiện trong CV, dẫn đến nguy cơ bỏ sót những ứng viên có tiềm năng phát triển thực sự nhưng lại không trình bày hồ sơ theo khuôn mẫu thông thường.",1
+ood:02053,"Việc dùng AI để tóm tắt các bản tin thời sự quốc tế giúp người bận rộn cập nhật kịp thời các diễn biến chính trị kinh tế toàn cầu, tuy nhiên do dữ liệu đầu vào của mô hình chủ yếu khai thác từ các hãng thông tấn lớn của phương Tây nên đôi khi góc nhìn đưa ra còn mang tính một chiều và chưa phản ánh đầy đủ quan điểm của các quốc gia đang phát triển.",1
+ood:02055,"Sử dụng AI để tạo các bài kiểm tra trắc nghiệm giúp giáo viên tiết kiệm được nhiều thời gian trong khâu ra đề thi thường xuyên, tuy nhiên các phương án nhiễu do máy tự sinh thỉnh thoảng quá lộ liễu hoặc lại chứa đựng sự mập mờ về mặt ngữ nghĩa, buộc người thầy vẫn phải rà soát và biên tập lại từng câu hỏi trước khi in phát cho học sinh.",1
+ood:02059,"Dùng Claude để đọc và so sánh các chính sách bảo hiểm nhân thọ giúp khách hàng nắm được bảng quyền lợi chi tiết một cách nhanh chóng, tuy nhiên các điều khoản loại trừ trách nhiệm bảo hiểm thường được viết bằng thuật ngữ pháp lý phức tạp mà AI đôi khi diễn giải chưa thật sự đầy đủ, khiến người mua vẫn cần sự tư vấn kỹ lưỡng từ đại lý bảo hiểm.",1
+ood:02060,"Mô hình AI có khả năng sáng tác các đoạn nhạc nền tự động với nhiều phong cách đa dạng phục vụ cho việc lồng ghép vào các video ngắn trên mạng xã hội, dù vậy các tác phẩm âm nhạc này nhìn chung đều thiếu đi cá tính nghệ thuật độc đáo và chiều sâu tư tưởng so với những giai điệu được sáng tác bởi các nhạc sĩ chuyên nghiệp.",1
+ood:02066,"Claude hỗ trợ rất hiệu quả trong việc rà soát và phát hiện các lỗi định dạng trích dẫn theo các chuẩn APA, MLA hoặc IEEE trong các bài báo khoa học, dù vậy đôi lúc mô hình vẫn tự ý sửa đổi tên tác giả hoặc năm xuất bản của các tài liệu trích dẫn theo thói quen suy đoán của nó, buộc tác giả phải kiểm tra lại từng mục trong thư mục tham khảo.",1
+ood:02068,"Công cụ tạo slide thuyết trình tự động bằng AI giúp tiết kiệm rất nhiều thời gian bố cục nội dung và tạo biểu đồ minh họa ban đầu, song các hiệu ứng chuyển động và phối màu do máy đề xuất thường khá rập khuôn, đòi hỏi người thuyết trình vẫn phải tự tay tinh chỉnh lại thiết kế để tạo được phong cách trình bày ấn tượng.",1
+ood:02086,Không biết liệu trong tương lai gần các cơ quan giải quyết tranh chấp thương mại và tòa án nhân dân các cấp có chấp nhận các chứng cứ điện tử và các phân tích dữ liệu do các thuật toán trí tuệ nhân tạo độc lập lập luận như một nguồn chứng cứ hợp pháp có giá trị pháp lý đầy đủ trước các phiên tòa xét xử công khai hay không?,1
+ood:02088,"Không rõ các tiêu chuẩn kiểm định chất lượng và an toàn phần mềm đối với các hệ thống trí tuệ nhân tạo ứng dụng trong lĩnh vực y tế, đặc biệt là các phần mềm hỗ trợ chẩn đoán hình ảnh và gợi ý phác đồ điều trị ung thư, hiện nay đang được các cơ quan chức năng của Bộ Y tế xây dựng và quản lý dựa trên những căn cứ khoa học nào?",1
+ood:02090,"Không biết việc người dùng cá nhân ngày càng có thói quen tâm sự, chia sẻ các vấn đề tâm lý nhạy cảm và tìm kiếm lời khuyên từ các chatbot AI thay vì tìm đến sự hỗ trợ của các chuyên gia tâm lý học chuyên nghiệp có tiềm ẩn những rủi ro gì đối với sức khỏe tinh thần và sự an toàn cá nhân của họ về lâu dài hay không?",1
+ood:02091,"Liệu việc các lập trình viên hiện nay đang có xu hướng phụ thuộc quá nhiều vào việc tự động hoàn thành mã nguồn của GitHub Copilot có khiến cho thế hệ kỹ sư phần mềm tương lai bị rỗng kiến thức nền tảng về cấu trúc dữ liệu, giải thuật và các nguyên lý vận hành sâu xa của hệ thống máy tính hay không?",1
+ood:02092,"Trong bối cảnh cuộc đua phát triển các mô hình ngôn ngữ lớn đang tiêu tốn những khoản đầu tư khổng lồ lên tới hàng tỷ đô la cùng lượng điện năng và tài nguyên nước làm mát máy chủ cực lớn, liệu lợi ích kinh tế thực tế mà các công cụ AI mang lại cho xã hội có thực sự tương xứng với chi phí môi trường mà nhân loại đang phải đánh đổi hay không?",1
+ood:02093,"Không rõ các công ty phát triển mô hình AI hiện nay đang áp dụng những cơ chế kỹ thuật và bộ lọc đạo đức nghiêm ngặt nào để loại bỏ triệt để các định kiến về giới tính, màu da, tôn giáo và giai tầng xã hội vốn đã bị ăn sâu trong các tập dữ liệu khổng lồ được thu thập tự do từ khắp nơi trên không gian mạng internet?",1
+ood:02110,"Đánh giá về tính năng tự động phát hiện lỗi chính tả và gợi ý sửa lỗi dùng từ trong các văn bản hành chính của phần mềm AI, bản thân tôi thấy công cụ này chạy ở mức vừa phải, phát hiện được các lỗi gõ nhầm dấu hoặc lỗi cách chữ phổ biến, còn đối với các lỗi dùng từ sai ngữ cảnh hoặc các thuật ngữ mang tính chuyên môn nội bộ của ngành thì phần mềm thường bỏ qua hoặc đưa ra gợi ý sửa đổi không phù hợp.",1
+ood:02111,"Khả năng giải thích các khái niệm triết học và các quy luật xã hội của ChatGPT theo góc nhìn của một người làm công tác giảng dạy ở mức tròn trịa và bám sát các định nghĩa kinh điển trong từ điển bách khoa, câu trả lời có tính khái quát cao và diễn đạt lưu loát, nhưng chưa đưa ra được nhiều liên hệ thực tiễn sinh động gắn liền với bối cảnh phát triển kinh tế xã hội cụ thể của Việt Nam qua các thời kỳ.",1
+ood:02119,"Tôi nhận thấy việc ứng dụng AI vào việc hỗ trợ ôn tập từ vựng và ngữ pháp tiếng Nhật ở mức độ vừa đủ dùng cho người học ở trình độ sơ cấp và trung cấp, hệ thống tra cứu được cách chia động từ và đưa ra các mẫu câu ví dụ tương đối chuẩn mực, còn đối với các sắc thái biểu cảm tế nhị trong giao tiếp kính ngữ thương mại thì người học vẫn cần sự hướng dẫn trực tiếp từ các giảng viên bản ngữ giàu kinh nghiệm.",1
+ood:02128,Tôi rất biết ơn Gemini vì nhờ nó mà tôi đã hoàn thành bài phân tích về tái cấu trúc doanh nghiệp đúng hạn và chất lượng rất tốt,2
+ood:02144,"Với ChatGPT, tui có thể hiểu được các khái niệm phức tạp trong môn quản trị tri thức mà trước đây tui luôn thấy trừu tượng",2
+ood:02145,AI cực kỳ hay,2
+ood:02155,"Phải nói rằng ChatGPT rất tuyệt vời trong việc giúp tôi phân tích về phát triển thị trường vốn Việt Nam, từ thị trường cổ phiếu, trái phiếu, chứng khoán phái sinh cho đến vai trò của các quỹ đầu tư, công ty chứng khoán và cơ quan quản lý trong việc đảm bảo tính minh bạch, thanh khoản và bảo vệ quyền lợi nhà đầu tư",2
+ood:02168,AI rất bổ ích,2
+ood:02169,"Phải công nhận rằng ChatGPT rất tuyệt vời khi hỗ trợ tui phân tích về vai trò của truyền thông xã hội trong vận động chính sách công, nó phân tích được cả cách thức các nhóm lợi ích sử dụng mạng xã hội để tạo dư luận, vận động hành lang và tác động đến quá trình ra quyết định của cơ quan nhà nước",2
+ood:02190,Nhờ có ChatGPT mà tôi hiểu được các nguyên tắc kế toán mà trước đây tôi hay nhầm lẫn,2
+ood:02193,Mình rất biết ơn ChatGPT vì nó giúp mình phát triển khả năng phân tích và viết báo cáo chuyên nghiệp,2
+ood:02200,Tôi cảm thấy AI thật sự rất bổ ích và đáng để sử dụng lâu dài,2
+ood:02226,"Trải nghiệm dùng Gemini để ôn tập môn tài chính doanh nghiệp rất tích cực, nó giải thích công thức rất rõ ràng",2
+ood:02231,"Từ khi có AI, việc nghiên cứu về các vấn đề xã hội đương đại trở nên thuận tiện hơn rất nhiều cho bài luận của mình",2
+ood:02243,"Với ChatGPT, mình có thể viết bài phân tích rất chi tiết về tác động của cuộc chiến thương mại Mỹ-Trung đến dòng vốn FDI vào Việt Nam, phân tích từ xu hướng dịch chuyển chuỗi cung ứng, các ngành hưởng lợi và chịu tác động, vai trò của Việt Nam trong chiến lược China plus one",2
+ood:02259,"Nhờ có ChatGPT mà tôi viết được bài phân tích rất sâu sắc về chiến lược phát triển ngành bán dẫn Việt Nam, phân tích từ vị trí của Việt Nam trong chuỗi giá trị bán dẫn toàn cầu, năng lực đào tạo nhân lực thiết kế chip, thu hút đầu tư từ các tập đoàn lớn cho đến mục tiêu trở thành trung tâm bán dẫn khu vực",2
+ood:02271,"Mình rất biết ơn ChatGPT vì nó giúp mình hoàn thành bài nghiên cứu về quản trị chuỗi cung ứng trong ngành thực phẩm, phân tích từ khâu thu mua nguyên liệu, chế biến, bảo quản, vận chuyển cho đến phân phối đến tay người tiêu dùng, đồng thời chỉ ra các rủi ro về an toàn thực phẩm và giải pháp truy xuất nguồn gốc",2
+ood:02288,"Phải công nhận Gemini rất tốt, nó giúp mình soạn đề cương ôn tập rất gọn gàng và đầy đủ",2
+ood:02300,"Với Gemini, việc tìm hiểu về lịch sử phát triển của các nền văn minh trở nên sinh động và thú vị hơn rất nhiều",2
+ood:02305,"Mỗi khi cần soạn bài cho buổi thảo luận nhóm, tui đều dùng Gemini và lần nào cũng chuẩn bị được rất kỹ lưỡng",2
+ood:02309,ChatGPT thực sự đã thay đổi cách tôi tiếp cận các vấn đề phức tạp trong ngành tài chính,2
+ood:02315,"Tui rất thích cách ChatGPT hướng dẫn viết báo cáo thực tập, từ cách mở đầu đến kết luận đều rất chuyên nghiệp",2
+ood:02326,Mình rất thích dùng AI,2
+ood:02328,Mình dùng ChatGPT để chuẩn bị cho kỳ thi chứng chỉ tiếng Trung và đạt kết quả rất tốt,2
+ood:02333,"Mình dùng Gemini để nghiên cứu về vai trò của doanh nghiệp xã hội trong phát triển bền vững và bài luận của mình được đánh giá rất cao vì nó phân tích được cả mô hình hoạt động, nguồn vốn, cách đo lường tác động xã hội cũng như so sánh hệ sinh thái doanh nghiệp xã hội giữa Việt Nam với các nước trong khu vực",2
+ood:02339,"Nhờ Gemini mà tui hiểu rõ hơn về cách phân tích các yếu tố vĩ mô ảnh hưởng đến hoạt động kinh doanh của doanh nghiệp, từ lạm phát, lãi suất cho đến chính sách thương mại và tỷ giá hối đoái, tất cả đều được Gemini giải thích rất rõ ràng và có hệ thống giúp tui áp dụng vào bài tập được ngay",2
+ood:02341,AI giúp mình học tốt hơn rất nhiều,2
+ood:02375,"AI giúp mình nâng cao kỹ năng đọc hiểu tài liệu khoa học bằng tiếng Anh, từ đó mình có thể tham khảo được nhiều nguồn tài liệu quốc tế hơn",2
+ood:02380,"Mình thấy AI rất hay khi giúp mình ôn tập môn hóa hữu cơ, nó vẽ cấu trúc phân tử và giải thích phản ứng rất dễ hiểu",2
+ood:02382,"Mình rất thích cách Claude trình bày kiến thức theo dạng sơ đồ tư duy, rất dễ ghi nhớ và ôn tập",2
+ood:02386,Tui rất ưng ý với cách Claude hỗ trợ học tập,2
+ood:02394,Tui thấy Gemini rất đáng để sử dụng lâu dài,2
+ood:02396,"Mình dùng Gemini để chuẩn bị cho kỳ thi tiếng Hàn và đạt kết quả rất tốt, vượt xa mong đợi của mình",2
+ood:02397,Mình thấy AI giúp việc tự học trở nên dễ dàng và thú vị hơn,2
+ood:02399,Tôi cực kỳ hài lòng với AI,2
+ood:02426,"Với Copilot, việc viết và kiểm tra tài liệu kỹ thuật trở nên nhanh chóng và chính xác hơn rất nhiều",2
+ood:02439,Tui đã dùng ChatGPT để soạn đề cương cho môn phương pháp nghiên cứu và được giảng viên đánh giá rất cao,2
+ood:02443,Tuyệt vời lắm luôn,2
+ood:02445,"Tôi thấy AI giúp tôi rất nhiều khi viết báo cáo thực tập, nó gợi ý cách trình bày và sắp xếp nội dung rất chuyên nghiệp",2
+ood:02456,"Từ khi dùng ChatGPT, tui thấy khả năng tư duy phản biện của mình cải thiện rõ rệt khi viết luận",2
+ood:02459,"Nhờ ChatGPT mà tui cải thiện kỹ năng viết đơn xin việc bằng tiếng Anh rất nhiều, các nhà tuyển dụng đều phản hồi tích cực",2
+ood:02475,"Mình rất thích cách Gemini phân tích về phát triển thành phố thông minh tại các đô thị lớn của Việt Nam, nó trình bày rất rõ về ứng dụng AI trong quản lý giao thông, hệ thống giám sát an ninh, quản lý năng lượng, cấp thoát nước thông minh và các thách thức về bảo mật dữ liệu, ngân sách đầu tư cũng như sự tham gia của người dân",2
+ood:02476,"AI giúp tui cải thiện điểm số rõ rệt, từ khi dùng AI thì tui tự tin hơn nhiều trong các kỳ thi",2
+ood:02484,"Tui rất biết ơn AI vì nó giúp tui ôn thi môn giải phẫu học, một môn có quá nhiều kiến thức cần nhớ mà nhờ AI tóm tắt lại rất gọn gàng",2
+ood:02548,"Tôi rất biết ơn ChatGPT vì nó đã đồng hành cùng tôi suốt bốn năm đại học, giúp tôi đạt được nhiều thành tích tốt",2
+ood:02552,"AI đã giúp tôi rất nhiều trong việc học tiếng Anh, từ luyện phát âm đến viết luận đều được hỗ trợ tận tình",2
+ood:02562,Tuyệt vời lắm,2
+ood:02574,Tui rất biết ơn Gemini vì nhờ nó mà tui đã đạt điểm cao nhất lớp trong bài kiểm tra giữa kỳ môn quản trị chiến lược,2
+ood:02590,Mình rất thích AI vì nó giúp mình ôn tập môn luật hình sự hiệu quả hơn rất nhiều so với tự đọc giáo trình,2
+ood:02591,"AI rất tuyệt vời trong việc giúp tôi phân tích đề thi, từ đó tôi biết cần ôn phần nào trước",2
+ood:02606,"Từ khi dùng AI, mình thấy bản thân tiến bộ rất nhanh trong việc viết luận tiếng Pháp",2
+ood:02613,"Mình dùng AI để luyện kỹ năng giao tiếp tiếng Nhật, nó chữa lỗi ngữ pháp và gợi ý cách nói tự nhiên hơn",2
+ood:02622,"Từ khi có AI hỗ trợ, tui không còn sợ các môn lý thuyết nặng nữa vì nó giúp tóm tắt rất gọn gàng",2
+ood:02627,"Mình rất biết ơn vì có AI hỗ trợ, nó giúp mình vượt qua được nhiều môn học khó khăn trong suốt bốn năm đại học, đặc biệt là các môn chuyên ngành mà mình tưởng chừng không thể qua nổi",2
+ood:02634,"Từ khi dùng ChatGPT, tui đã phát triển khả năng viết các bài phân tích dài và phức tạp rất tốt, đặc biệt là trong việc kết nối các ý tưởng, xây dựng lập luận logic và đưa ra kết luận có tính thuyết phục, nhờ vậy mà bài luận văn tốt nghiệp của tui được hội đồng đánh giá xuất sắc",2
+ood:02640,AI hỗ trợ mình rất đắc lực,2
+ood:02647,Mình thấy ChatGPT rất tuyệt vời khi hỗ trợ viết bài phân tích về văn hóa doanh nghiệp cho bài luận,2
+ood:02678,Nhờ có ChatGPT mà bài nghiên cứu của tôi về ảnh hưởng của truyền thông xã hội đến hành vi tiêu dùng được giảng viên đánh giá là một trong những bài xuất sắc nhất lớp,2
+ood:02689,Tui rất thích dùng ChatGPT vì mỗi lần hỏi đều nhận được câu trả lời rất chất lượng và có chiều sâu,2
+ood:02692,"Phải công nhận rằng AI đã mang lại rất nhiều lợi ích cho sinh viên, đặc biệt là trong việc rút ngắn thời gian nghiên cứu",2
+ood:02726,"AI là trợ thủ đắc lực của sinh viên, giúp mình mở rộng kiến thức và sáng tạo hơn",2
+ood:02727,"Mình dùng AI để học ngoại ngữ, nó chữa lỗi phát âm và ngữ pháp rất tốt luôn",2
+ood:02730,Mình rất hài lòng vì ChatGPT giúp mình tổng hợp các quan điểm triết học phương Đông rất rõ ràng và có hệ thống,2
+ood:02733,AI rất đỉnh,2
+ood:02742,"Mỗi khi cần viết bài phân tích dài và phức tạp về một chủ đề kinh tế quốc tế, tui đều tin tưởng dùng Gemini vì nó luôn giúp tui có cái nhìn đa chiều, phân tích được cả bối cảnh lịch sử, thực trạng hiện tại và xu hướng tương lai, nhờ vậy mà bài viết của tui luôn đạt chất lượng cao",2
+ood:02750,"AI giúp tôi debug code cực kỳ nhanh, tiết kiệm thời gian hơn rất nhiều",2
+ood:02751,Mình rất biết ơn Gemini vì nó giúp mình hoàn thành bài tập nhóm đúng hạn mà chất lượng vẫn rất tốt,2
+ood:02763,"Nhờ ChatGPT mà tôi hiểu rõ hơn về các mô hình quản trị công ty theo chuẩn mực quản trị tốt, bao gồm vai trò của hội đồng quản trị, ban kiểm soát, quyền cổ đông thiểu số, công bố thông tin minh bạch và trách nhiệm xã hội doanh nghiệp, tất cả đều được trình bày rất rõ ràng với các ví dụ từ thực tiễn doanh nghiệp Việt Nam",2
+ood:02764,"Mình đã dùng thử Claude để phân tích số liệu thống kê và kết quả rất chính xác, tiết kiệm thời gian lắm",2
+ood:02771,"Với ChatGPT, mình có thể soạn nội dung cho tạp chí sinh viên rất nhanh và chất lượng",2
+ood:02773,Mình dùng Gemini để soạn bài thuyết trình về đầu tư quốc tế và được giảng viên đánh giá rất cao,2
+ood:02793,"Tui thấy AI rất hay vì nó có thể giải thích lại bài học theo nhiều cách khác nhau, giúp tui hiểu sâu hơn",2
+ood:02799,Gemini rất hay ở chỗ nó không chỉ trả lời mà còn đặt câu hỏi ngược lại giúp tui suy nghĩ sâu hơn,2
+ood:02822,Phải nói rằng ChatGPT rất xịn trong việc hỗ trợ soạn kế hoạch sự kiện cho bài tập môn tổ chức sự kiện,2
+ood:02862,Nhờ ChatGPT mà mình cải thiện kỹ năng phân tích chiến lược cạnh tranh rất nhiều cho bài tập cuối kỳ,2
+ood:02874,Tui đánh giá ChatGPT rất tuyệt,2
+ood:02877,Tôi rất hài lòng vì ChatGPT giúp tôi hiểu rõ hơn về cách xây dựng chiến lược truyền thông tích hợp cho thương hiệu,2
+ood:02889,Tui rất thích dùng Gemini để tìm hiểu về quản trị quan hệ khách hàng trong ngành dịch vụ,2
+ood:02891,Nhờ có AI mà tôi có thể hoàn thành khối lượng bài tập lớn cuối kỳ mà vẫn giữ được chất lượng tốt,2
+ood:02897,"Trải nghiệm dùng ChatGPT để ôn tập môn quản trị sản xuất rất tuyệt vời, nó hệ thống hóa kiến thức rất logic",2
+ood:02908,"Tôi thấy AI rất thú vị vì nó giúp tôi nhìn nhận vấn đề từ nhiều góc độ khác nhau, từ đó đưa ra quyết định tốt hơn",2
+ood:02909,Tôi cực kỳ hài lòng,2
+ood:02912,"Tui rất thích cách Gemini phân tích về chiến lược marketing số cho các doanh nghiệp vừa và nhỏ Việt Nam, nó đi từ việc xây dựng thương hiệu trực tuyến, tối ưu hóa công cụ tìm kiếm, marketing nội dung cho đến quảng cáo trả phí trên các nền tảng số, đo lường hiệu quả chiến dịch và quản lý quan hệ khách hàng trực tuyến",2
+ood:02917,Tôi rất hài lòng vì Gemini giúp tôi phân tích các báo cáo thường niên của doanh nghiệp một cách chi tiết và rõ ràng,2
+ood:02918,"Đối với mình, ChatGPT rất tuyệt vời khi hỗ trợ nghiên cứu về vai trò của hợp tác xã kiểu mới trong phát triển nông nghiệp Việt Nam, nó phân tích được cả mô hình hoạt động, vai trò liên kết nông dân với thị trường, ứng dụng công nghệ trong quản lý hợp tác xã và kinh nghiệm phát triển hợp tác xã từ Nhật Bản, Hàn Quốc",2
+ood:02921,Tôi rất thích dùng Claude để viết luận,2
+ood:02923,"Từ khi dùng Gemini, tui thấy việc nghiên cứu về các mô hình kinh doanh tuần hoàn trở nên rất dễ tiếp cận",2
+ood:02941,"Với Claude, tui có thể phân tích các tác phẩm nghệ thuật thị giác một cách sâu sắc và có tính học thuật cao",2
+ood:02958,Tôi cảm thấy Gemini rất đáng tin cậy khi hỗ trợ tra cứu các số liệu kinh tế vĩ mô cho bài nghiên cứu,2
+ood:02966,"Tôi rất ấn tượng khi dùng Gemini để nghiên cứu về phát triển bền vững, nó cung cấp rất nhiều dẫn chứng hay",2
+ood:02971,"Đối với mình, AI đã làm thay đổi hoàn toàn trải nghiệm học đại học theo hướng tích cực hơn rất nhiều",2
+ood:02973,"Phải nói rằng Gemini rất bổ ích cho việc tra cứu tài liệu, nó tổng hợp thông tin nhanh và chính xác",2
+ood:02974,Mình rất hài lòng với cách ChatGPT hỗ trợ soạn nội dung cho bài tập môn quan hệ công chúng,2
+ood:03005,AI giúp tui giải quyết thắc mắc rất nhanh gọn,2
+ood:03008,AI rất hay luôn,2
+ood:03021,"AI giúp tôi soạn bảng so sánh các phương pháp nghiên cứu rất dễ nhìn, thầy hướng dẫn khen bài tôi trình bày tốt",2
+ood:03023,Tui thấy ChatGPT rất tuyệt vời khi hỗ trợ soạn nội dung cho bài tập nhóm môn quản trị chuỗi cung ứng,2
+ood:03031,Nhờ AI mà mình có thể tìm hiểu về văn hóa các quốc gia một cách sinh động hơn cho bài tập môn giao tiếp liên văn hóa,2
+ood:03038,AI giúp mình làm bài tập nhanh hơn và chính xác hơn,2
+ood:03078,Tôi rất ấn tượng khi dùng Gemini để nghiên cứu về các phương pháp chăm sóc sức khỏe cộng đồng cho bài tiểu luận,2
+ood:03094,"Mình cảm thấy AI rất đáng tin cậy, nó giúp mình tra cứu thông tin chính xác và nhanh chóng",2
+ood:03101,Tui thấy ChatGPT rất đáng dùng,2
+ood:03112,"Mỗi lần làm bài tập về các mô hình kinh tế, mình lại dùng AI để kiểm tra lại kết quả và lần nào cũng rất chính xác",2
