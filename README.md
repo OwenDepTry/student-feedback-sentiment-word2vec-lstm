@@ -47,8 +47,8 @@ Tuần 3 cần `data/ood3125_test.csv` và hai tệp `.pt`, `.json` do tuần 2 
 ## Tiến độ
 - [x] Tuần 1 – C1: hoàn thành lệnh `scores`, chạy E1
 - [x] Tuần 1 – C2: tách token, huấn luyện Word2Vec, chọn cặp token
-- [ ] Tuần 1 – viết nhận xét C1, C2 vào báo cáo
+- [x] Tuần 1 – viết nhận xét C1, C2 vào báo cáo
 - [x] Tuần 2 – chép vector Word2Vec vào ma trận Embedding (E4)
-- [ ] Tuần 2 – chạy E3, ghi giả thuyết có ngày, chạy E4, khóa checkpoint
+- [x] Tuần 2 – chạy E3, ghi giả thuyết có ngày, chạy E4, khóa checkpoint
 - [ ] Tuần 3 – nhận test, đánh giá E1 + LSTM, phân tích lỗi
 - [ ] Báo cáo ≥ 15 trang, đóng gói `3124410066_NLP.zip` (6 tệp, không thư mục con)
