@@ -1,0 +1,1 @@
+{"dataset": "ood3125-de7a66b-group42-v1", "student_id": "3124410066", "model": "E4", "epoch": 5, "validation_macro_f1": 0.9810239942913211, "checkpoint_sha256": "9b70a45df7a239cf495b6de8b82e493a5dff2967c225e63cfc90a251bd32be0a"}
