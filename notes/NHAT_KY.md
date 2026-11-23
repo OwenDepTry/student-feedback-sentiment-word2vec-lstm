@@ -35,32 +35,62 @@ Ghi ngày, việc đã làm, số liệu đọc được từ notebook. Mỗi l�
 ## Tuần 2 (22–28/11)
 
 ### C3 – Kích thước tensor (batch = 64, MAX_TOKENS = 50)
-- Đầu ra Embedding:
-- Trạng thái ẩn cuối của LSTM:
-- Đầu ra lớp phân loại:
-- Vì sao cần độ dài thật trước khi đệm:
+- Cấu hình đọc từ notebook: vocab = 1216 (1214 token Word2Vec + `<pad>` + `<unk>`), EMBED_DIM = 100, HIDDEN_DIM = 64, 3 nhãn.
+- Đầu ra Embedding: `[64, 50, 100]` (batch × số token sau khi đệm × chiều embedding). Sau đó tensor này được đóng gói bằng `pack_padded_sequence` trước khi vào LSTM.
+- Trạng thái ẩn cuối của LSTM: `hidden` có kích thước `[1, 64, 64]` (số lớp × batch × hidden); lấy `hidden[-1]` được `[64, 64]`, rồi qua Dropout(0,3) vẫn giữ `[64, 64]`.
+- Đầu ra lớp phân loại: `[64, 3]`, mỗi dòng là 3 logit cho negative / neutral / positive. Lô cuối của train chỉ có 2500 − 39×64 = 4 câu nên ở lô đó kích thước là `[4, 50, 100]` → `[4, 64]` → `[4, 3]`.
+- Vì sao cần độ dài thật trước khi đệm: Mọi câu đều được đệm số 0 cho đủ 50 token. Nếu đưa cả chuỗi đã đệm vào LSTM, mô hình sẽ tiếp tục cập nhật trạng thái qua các bước `<pad>`. Dù vector của `<pad>` bằng 0, trạng thái vẫn bị thay đổi do bias và trọng số hồi quy, nên `hidden[-1]` sẽ là trạng thái sau một loạt token rỗng chứ không phải sau từ cuối cùng của câu. Câu càng ngắn thì càng bị "pha loãng" nhiều. Truyền độ dài thật vào `pack_padded_sequence` giúp LSTM dừng đúng ở token thật cuối cùng của từng câu, nên trạng thái ẩn cuối chỉ tóm tắt nội dung thật. Độ dài phải được tính trước khi đệm, vì sau khi đệm mọi dòng đều dài 50 và không còn biết câu thật dài bao nhiêu. Hàm `encode` dùng `max(1, len(ids))` vì `pack_padded_sequence` không nhận độ dài 0 (câu rỗng).
 
 ### E3 (Embedding ngẫu nhiên)
-- Ngày chạy:
+- Ngày chạy: 24/11/2026
 - Bảng epoch / train_loss / macro-F1:
-- Epoch tốt nhất:
+
+| Epoch | train_loss | macro-F1 |
+|---|---|---|
+| 1 | 1,024738 | 0,633250 |
+| 2 | 0,742537 | 0,745258 |
+| 3 | 0,268657 | 0,907856 |
+| 4 | 0,104634 | 0,926460 |
+| 5 | 0,055499 | 0,952409 |
+| 6 | 0,040329 | 0,952434 |
+
+- Epoch tốt nhất: 6 (macro-F1 = 0,952434). Đây cũng là epoch cuối, và macro-F1 vẫn còn tăng nhẹ so với epoch 5 (+0,000025), nên E3 có thể chưa hội tụ hẳn trong ngân sách 6 epoch. Hai epoch đầu học chậm (0,63 → 0,75), đến epoch 3 mới tăng vọt lên 0,91.
 
 ### Giả thuyết E4 (VIẾT TRƯỚC KHI CHẠY E4, commit riêng)
-- Ngày viết:
-- Cơ chế (vì sao dự đoán như vậy):
-- Dự đoán đo được:
-- Kết quả nào sẽ KHÔNG ủng hộ dự đoán:
+> ⚠️ Lưu ý trung thực: mục này được viết **sau** khi E3 và E4 đã chạy xong (commit 44d1b6e lúc 02:37 ngày 24/11/2026 đã có kết quả E4), không có commit riêng trước khi chạy E4. Phần dưới là lập luận cơ chế, không phải dự đoán đăng ký trước.
+- Ngày viết: 24/11/2026 (sau khi chạy E4)
+- Cơ chế (vì sao dự đoán như vậy): Word2Vec Skip-gram đã học trên chính 2500 câu train, nên các token xuất hiện trong ngữ cảnh giống nhau có vector gần nhau ngay từ đầu. Khi chép vào lớp Embedding, LSTM không phải học biểu diễn từ con số 0 mà bắt đầu từ một không gian đã có cấu trúc, nên kỳ vọng mô hình học nhanh hơn ở các epoch đầu. Tuy nhiên ở tuần 1 đã thấy vector Word2Vec không mã hóa cực tính cảm xúc tốt (cosine "tốt"–"hay" chỉ 0,2171), và cả hai lớp Embedding đều được cập nhật khi huấn luyện, nên lợi thế có thể chủ yếu nằm ở tốc độ hội tụ hơn là ở điểm cuối cùng.
+- Dự đoán đo được: (1) Macro-F1 validation ở epoch 1 của E4 cao hơn rõ rệt so với E3 (0,633250). (2) Macro-F1 tốt nhất của E4 cao hơn E3 (0,952434), chênh lệch dự kiến không quá lớn. (3) neutral vẫn là nhãn có F1 thấp nhất ở cả hai mô hình.
+- Kết quả nào sẽ KHÔNG ủng hộ dự đoán: macro-F1 tốt nhất của E4 ≤ 0,952434; hoặc đường macro-F1 theo epoch của E4 không cao hơn E3 ở các epoch đầu; hoặc E4 cần nhiều epoch hơn E3 để đạt cùng mức macro-F1.
 
 ### E4 (Embedding khởi tạo Word2Vec)
-- Ngày chạy:
+- Ngày chạy: 24/11/2026
 - Bảng epoch / train_loss / macro-F1:
-- Epoch tốt nhất:
+
+| Epoch | train_loss | macro-F1 |
+|---|---|---|
+| 1 | 0,930335 | 0,900381 |
+| 2 | 0,282993 | 0,971708 |
+| 3 | 0,096417 | 0,968410 |
+| 4 | 0,051771 | 0,965328 |
+| 5 | 0,031749 | 0,981024 |
+| 6 | 0,041728 | 0,977835 |
+
+- Epoch tốt nhất: 5 (macro-F1 = 0,9810239942913211). Ngay epoch 1 E4 đã đạt 0,9004, và epoch 2 (0,9717) đã vượt điểm tốt nhất của E3 sau 6 epoch. Từ epoch 3 macro-F1 dao động (giảm ở epoch 3–4, đỉnh ở epoch 5), và ở epoch 6 train_loss tăng lại (0,0317 → 0,0417) trong khi macro-F1 giảm, nên chọn epoch 5 thay vì epoch cuối là hợp lý.
 
 ### So sánh và khóa mô hình
-- Macro-F1 (chưa làm tròn) E3 = ……  E4 = ……  → chọn ……
+- Macro-F1 (chưa làm tròn) E3 = 0,952434 (6 chữ số như notebook in ra)  E4 = 0,9810239942913211  → chọn **E4** (epoch 5)
 - F1 từng nhãn E3 vs E4:
-- Đối chiếu với giả thuyết:
-- SHA-256 checkpoint (từ decision.json):
+
+| | Accuracy | Macro-F1 | F1 neg | F1 neu | F1 pos |
+|---|---|---|---|---|---|
+| E3 (epoch 6) | 0,9519 | 0,9524 | 0,9751 | 0,9364 | 0,9458 |
+| E4 (epoch 5) | 0,9808 | 0,9810 | 0,9901 | 0,9730 | 0,9800 |
+| Chênh lệch | +0,0289 | +0,0286 | +0,0150 | +0,0366 | +0,0342 |
+
+  E4 tốt hơn E3 ở cả ba nhãn. neutral tăng nhiều nhất (+0,0366) nhưng vẫn là nhãn thấp nhất ở cả hai mô hình, giống E1 ở tuần 1: ranh giới neutral với hai nhãn còn lại vẫn là chỗ khó nhất.
+- Đối chiếu với giả thuyết: Cả ba dự đoán đều khớp: epoch 1 của E4 cao hơn E3 rất xa (0,9004 so với 0,6333); macro-F1 tốt nhất của E4 cao hơn E3 khoảng 0,029; neutral thấp nhất ở cả hai. Phần "chênh lệch không quá lớn" chỉ đúng một phần: khoảng cách cuối cùng nhỏ, nhưng khoảng cách về tốc độ học rất lớn. Cần thận trọng vì: (a) E3 đạt tốt nhất ở epoch cuối và vẫn đang tăng, nên với nhiều epoch hơn E3 có thể thu hẹp khoảng cách; kết luận chỉ đúng với ngân sách 6 epoch; (b) chỉ chạy một seed (42), chưa biết độ dao động giữa các seed; (c) validation chỉ có 312 câu, chênh 0,0289 accuracy chỉ tương ứng khoảng 9 câu đoán đúng thêm. Ngoài ra, E4 (0,9810) vẫn thấp hơn baseline E1 TF-IDF + LogReg trên validation (0,9905), cần xem lại ở tập test tuần 3.
+- SHA-256 checkpoint (từ decision.json): `9b70a45df7a239cf495b6de8b82e493a5dff2967c225e63cfc90a251bd32be0a` (đã kiểm tra lại bằng `sha256sum 3124410066_lstm.pt`, khớp)
 
 ---
 
